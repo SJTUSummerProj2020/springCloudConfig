@@ -9,6 +9,9 @@ spring:
     url: jdbc:mysql://localhost/jupiter_cloud?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&failOverReadOnly=false&serverTimezone=Asia/Shanghai
     username: root
     password: root
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/jupiter
   jpa:
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
     show-sql: true
